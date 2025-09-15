@@ -32,22 +32,6 @@ A **Stacked Ensemble** architecture was implemented to maximize prediction perfo
 
 The modeling process also included **Optuna** for automated hyperparameter optimization and **Group K-Fold** cross-validation to prevent data leakage and ensure the model's ability to generalize to new users.
 
-## 📂 Repository Structure
-
-```
-.
-├── data/
-│   ├── train.csv
-│   └── test.csv
-├── notebooks/
-│   └── Datathon_2025_Solution.ipynb
-└── submissions/
-    └── submission.csv
-```
-
-  * `data/`: Contains the provided `train.csv` and `test.csv` datasets.
-  * `notebooks/`: Includes the Jupyter Notebook with all the project's code and analysis.
-  * `submissions/`: Stores the `submission.csv` files prepared for submission to Kaggle.
 
 ## ⚙️ Requirements
 
